@@ -55,6 +55,12 @@ func (n *Notifier) String() string {
 			sb.WriteString(", ")
 		}
 	}
+
+	if sb.Len() < 2 {
+		// No notification services are configured, return early as the separator strip is not applicable
+		return "none"
+	}
+
 	names := sb.String()
 
 	// remove the last separator
@@ -97,7 +103,7 @@ func (n *Notifier) getNotificationTypes(cmd *cobra.Command, levels []log.Level, 
 			log.Fatal("failed to create notification config:", err)
 		}
 
-		println(shoutrrrURL)
+		log.WithField("URL", shoutrrrURL).Trace("created Shoutrrr URL from legacy notifier")
 
 		notifier := newShoutrrrNotifierFromURL(
 			cmd,
