@@ -9,7 +9,6 @@
   [![Circle CI](https://circleci.com/gh/containrrr/watchtower.svg?style=shield)](https://circleci.com/gh/containrrr/watchtower)
   [![codecov](https://codecov.io/gh/containrrr/watchtower/branch/main/graph/badge.svg)](https://codecov.io/gh/containrrr/watchtower)
   [![GoDoc](https://godoc.org/github.com/containrrr/watchtower?status.svg)](https://godoc.org/github.com/containrrr/watchtower)
-  [![Microbadger](https://images.microbadger.com/badges/image/containrrr/watchtower.svg)](https://microbadger.com/images/containrrr/watchtower)
   [![Go Report Card](https://goreportcard.com/badge/github.com/containrrr/watchtower)](https://goreportcard.com/report/github.com/containrrr/watchtower)
   [![latest version](https://img.shields.io/github/tag/containrrr/watchtower.svg)](https://github.com/containrrr/watchtower/releases)
   [![Apache-2.0 License](https://img.shields.io/github/license/containrrr/watchtower.svg)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -146,6 +145,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://reinout.vanrees.org"><img src="https://avatars.githubusercontent.com/u/121433?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Reinout van Rees</b></sub></a><br /><a href="https://github.com/containrrr/watchtower/commits?author=reinout" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/DasSkelett"><img src="https://avatars.githubusercontent.com/u/28812678?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DasSkelett</b></sub></a><br /><a href="https://github.com/containrrr/watchtower/commits?author=DasSkelett" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/zenjabba"><img src="https://avatars.githubusercontent.com/u/679864?v=4?s=100" width="100px;" alt=""/><br /><sub><b>zenjabba</b></sub></a><br /><a href="https://github.com/containrrr/watchtower/commits?author=zenjabba" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://quan.io"><img src="https://avatars.githubusercontent.com/u/3526705?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dan Quan</b></sub></a><br /><a href="https://github.com/containrrr/watchtower/commits?author=djquan" title="Documentation">📖</a></td>
   </tr>
 </table>
 
