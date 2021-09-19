@@ -30,7 +30,8 @@ func NewNotifier(c *cobra.Command) ty.Notifier {
 
 	urls = AppendLegacyUrls(urls, c)
 
-	return newShoutrrrNotifier(tplString, acceptedLogLevels, !reportTemplate, urls...)
+	title := GetTitle(c)
+	return newShoutrrrNotifier(tplString, acceptedLogLevels, !reportTemplate, title, urls...)
 }
 
 // AppendLegacyUrls creates shoutrrr equivalent URLs from legacy notification flags
@@ -66,7 +67,7 @@ func AppendLegacyUrls(urls []string, cmd *cobra.Command) []string {
 
 		shoutrrrURL, err := legacyNotifier.GetURL(cmd)
 		if err != nil {
-			log.Fatal("failed to create notification config:", err)
+			log.Fatal("failed to create notification config: ", err)
 		}
 		urls = append(urls, shoutrrrURL)
 
